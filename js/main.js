@@ -4,7 +4,7 @@ window.onload = function(){
 	// PRELOADER
 	Q.all([
 		Loader.loadAssets(Loader.manifestPreload),
-		Words.convert("words_de.html")
+		Words.convert("words.html")
 	]).then(function(){
 
 		// CHANGE DOM

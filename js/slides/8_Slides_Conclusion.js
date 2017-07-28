@@ -47,7 +47,7 @@ SLIDES.push({
 		// IMAGE
 		self.add({
 			id:"img", type:"ImageBox",
-			src: "assets/conclusion/summary.png",
+			src: "../assets/conclusion/summary.png",
 			x:10, y:60, width:140, height:350
 		});
 
@@ -107,7 +107,7 @@ SLIDES.push({
 		// Photo
 		self.add({
 			id:"img", type:"ImageBox",
-			src: "assets/conclusion/truce.jpg",
+			src: "../assets/conclusion/truce.jpg",
 			x:228, y:90, width:500,
 		});
 		_hide(o.img); _fadeIn(o.img, 200);

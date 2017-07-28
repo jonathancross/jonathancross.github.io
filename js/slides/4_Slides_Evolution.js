@@ -1,6 +1,6 @@
 Loader.addToManifest(Loader.manifest,{
 	// SFX
-	fart: "assets/sounds/fart.mp3"
+	fart: "../assets/sounds/fart.mp3"
 });
 
 // Evolution Intro
@@ -38,7 +38,7 @@ SLIDES.push({
 		// IMAGE
 		self.add({
 			id:"img", type:"ImageBox",
-			src: "assets/evolution/evolution_intro.png",
+			src: "../assets/evolution/evolution_intro.png",
 			x:0, y:60, width:960, height:170
 		});
 

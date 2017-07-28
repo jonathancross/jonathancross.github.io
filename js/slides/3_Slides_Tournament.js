@@ -1,6 +1,6 @@
 Loader.addToManifest(Loader.manifest,{
 	// SFX
-	drumroll: "assets/sounds/drumroll.mp3"
+	drumroll: "../assets/sounds/drumroll.mp3"
 });
 
 // round-robin tournament, place your bets

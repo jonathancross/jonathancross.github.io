@@ -15,7 +15,7 @@ function PayoffsUI(config){
 	
 	// Add Image Background
 	var bg = new ImageBox({
-		src: "assets/ui/payoffs_ui.png",
+		src: "../assets/ui/payoffs_ui.png",
 		x:0, y:0, width:300, height:300
 	});
 	dom.appendChild(bg.dom);

@@ -40,12 +40,12 @@ subscribe("rules/turns",function(value){
 
 // REGULAR LOAD
 Loader.addToManifest(Loader.manifest,{
-	tournament_peep: "assets/tournament/tournament_peep.json",
-	connection_flower: "assets/tournament/connection_flower.json",
+	tournament_peep: "../assets/tournament/tournament_peep.json",
+	connection_flower: "../assets/tournament/connection_flower.json",
 
 	// SFX
-	squeak: "assets/sounds/squeak.mp3",
-	bonk: "assets/sounds/bonk.mp3"
+	squeak: "../assets/sounds/squeak.mp3",
+	bonk: "../assets/sounds/bonk.mp3"
 
 });
 

@@ -1,0 +1,9 @@
+url: https://jonathancross.github.io
+title: The Evolution of Trust
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
